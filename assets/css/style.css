@@ -1,0 +1,194 @@
+@media only screen and (max-width: 768px) {
+  #hero .row {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  #hero img,
+  #services img:first-child {
+    width: 100%;
+    height: 100%;
+  }
+
+  nav,
+  #why-us,
+  #faq,
+  #services h3,
+  #services p,
+  footer {
+    text-align: center;
+  }
+
+  #why-us img {
+    margin: 0 auto;
+  }
+
+  .testi {
+    width: 200px !important;
+    padding: 0 !important;
+    text-align: center;
+  }
+
+}
+
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+.btn-success {
+  background-color: #5cb85f !important;
+  font-weight: 700;
+}
+
+section,
+footer {
+  margin-bottom: 100px;
+}
+
+/* nav, */
+#hero {
+  background-color: #f1f3ff;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+#hero {
+  padding-top: 37px;
+}
+
+.heading-title {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.tick {
+  width: 40px;
+  height: 40px;
+}
+
+#services h3 {
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.heading {
+  font-weight: 700;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.card {
+  border-radius: 8px;
+  width: 268px;
+  margin: 0 auto;
+}
+
+#why-us .card img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+}
+
+#why-us .card h5 {
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+#why-us .card p {
+  font-weight: 300;
+  margin-bottom: 14px;
+}
+
+#why-us .card {
+  padding: 20px;
+}
+
+#card-group {
+  margin-top: 40px;
+}
+
+.testimonial-name {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#carousel-testimonial {
+  margin-top: 40px;
+}
+
+.testi {
+  width: 619px;
+  background-color: #f1f3ff;
+  border-radius: 8px;
+  padding: 30px 32px;
+}
+
+.circle {
+  border-radius: 50%;
+  padding: 7px 11px;
+  border: 1px solid black;
+}
+
+.circle:hover {
+  border: 1px solid white;
+  background-color: #5cb85f;
+  color: white;
+}
+
+.user-image {
+  width: 80px;
+  margin: 50px;
+}
+
+.carousel-control {
+  width: 32px;
+  background-color: #fff;
+  border: 0;
+  margin: 10px;
+}
+
+#getting-started {
+  background-color: #0d28a6;
+  border-radius: 13px;
+  color: #fff;
+  padding: 64px;
+}
+
+.accordion-item {
+  margin-bottom: 16px;
+  border: 1px solid #d4d4d4 !important;
+  border-radius: 4px;
+}
+
+footer img {
+  margin-right: 16px;
+}
+
+.show-neighbors {
+  overflow: hidden;
+}
+
+.show-neighbors .carousel-inner {
+  width: 150%;
+  left: -25%;
+}
+
+.show-neighbors .item__third {
+  display: block !important;
+  float: left;
+  position: relative;
+  width: 33.33333333%;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 0ba4fb9883d1de3cd86b82e589bf8736cd5d8727
