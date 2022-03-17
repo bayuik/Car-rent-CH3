@@ -1,28 +1,30 @@
 @media only screen and (max-width: 768px) {
-  #hero .row {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    text-align: center;
-    padding-bottom: 30px;
-  }
-
-  #hero img,
-  #services img:first-child {
-    width: 100%;
+  #hero img {
+    width: 103%;
     height: 100%;
+    margin-top: 20px;
   }
 
-  nav,
-  #why-us,
-  #faq,
-  #services h3,
-  #services p,
-  footer {
+  .title,
+  #faq {
     text-align: center;
   }
 
-  #why-us img {
-    margin: 0 auto;
+  .navbar-nav {
+    width: 50%;
+    height: 100vh;
+    z-index: 5;
+    background-color: #fff;
+    padding: 15px;
+  }
+
+  .img-services{
+    width: 80%;
+    margin-bottom: 24px;
+  }
+
+  .heading-title {
+    font-size: 24px;
   }
 
   .testi {
@@ -30,7 +32,6 @@
     padding: 0 !important;
     text-align: center;
   }
-
 }
 
 * {
@@ -39,6 +40,10 @@
 
 body {
   width: 100%;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
 }
 
 .btn-success {
@@ -51,7 +56,6 @@ footer {
   margin-bottom: 100px;
 }
 
-/* nav, */
 #hero {
   background-color: #f1f3ff;
 }
@@ -70,9 +74,12 @@ footer {
   margin-bottom: 16px;
 }
 
-.tick {
-  width: 40px;
-  height: 40px;
+table tr td:first-child {
+  padding-right: 16px;
+}
+
+table tr td {
+  padding-bottom: 10px;
 }
 
 #services h3 {
@@ -88,7 +95,6 @@ footer {
 
 .card {
   border-radius: 8px;
-  width: 268px;
   margin: 0 auto;
 }
 
@@ -161,6 +167,7 @@ footer {
   border-radius: 13px;
   color: #fff;
   padding: 64px;
+  width: 90%;
 }
 
 .accordion-item {
@@ -187,8 +194,4 @@ footer img {
   float: left;
   position: relative;
   width: 33.33333333%;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 0ba4fb9883d1de3cd86b82e589bf8736cd5d8727
