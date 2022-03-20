@@ -3,6 +3,7 @@
     width: 103%;
     height: 100%;
     margin-top: 20px;
+    padding-bottom: 20px;
   }
 
   .title,
@@ -10,15 +11,29 @@
     text-align: center;
   }
 
-  .navbar-nav {
-    width: 50%;
+  #navbarNav {
+    transition: right 0.5s;
     height: 100vh;
-    z-index: 5;
-    background-color: #fff;
-    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(198, 198, 198);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 50%, rgba(255, 255, 255, 1) 50%);
   }
 
-  .img-services{
+  .navbar-nav {
+    padding: 16px;
+    width: 50%;
+  }
+
+  .navbar-nav button {
+    border: none;
+    background-color: transparent;
+  }
+
+  .img-services {
     width: 80%;
     margin-bottom: 24px;
   }
@@ -28,17 +43,48 @@
   }
 
   .testi {
-    width: 200px !important;
+    width: 100% !important;
     padding: 0 !important;
     text-align: center;
   }
+
+  .show-neighbors {
+    overflow: hidden;
+  }
+
+  .show-neighbors .carousel-inner {
+    width: 100% !important;
+    left: 1.2em !important;
+  }
+
+  .show-neighbors .item__third {
+    float: left;
+    position: relative;
+    width: 90% !important;
+  }
 }
 
-* {
-  font-family: Helvetica, sans-serif;
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #hero img {
+    width: 218%;
+  }
+
+  #navbarNav {
+    transition: right 0.5s !important;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(198, 198, 198);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 50%, rgba(255, 255, 255, 1) 50%);
+  }
+
 }
 
 body {
+  font-family: Helvetica, sans-serif;
   width: 100%;
 }
 
@@ -116,6 +162,7 @@ table tr td {
 
 #why-us .card {
   padding: 20px;
+  height: 225px;
 }
 
 #card-group {
@@ -151,7 +198,7 @@ table tr td {
 }
 
 .user-image {
-  width: 80px;
+  width: 6em;
   margin: 50px;
 }
 
@@ -190,7 +237,7 @@ footer img {
 }
 
 .show-neighbors .item__third {
-  display: block !important;
+  display: block;
   float: left;
   position: relative;
   width: 33.33333333%;
