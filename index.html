@@ -430,11 +430,10 @@
       allowPageScroll: "vertical"
     });
 
-    $('[data-toggle="slide-collapse"]').on('click', function() {
-      $navMenuCont = $($(this).data('target'));
-      // $navMenuCont.animate({ 'width': 'toggle' }, 300);
-      $navMenuCont.animate({'width': 'toggle', 'slide': 'left'}, 300);
+    $('[data-toggle="slide-collapse"]').on('click', function () {
+      $('#navbarNav').animate({ width: 'toggle' }, 300);
     });
+
   </script>
 </body>
 
